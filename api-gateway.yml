@@ -18,7 +18,7 @@ spring:
       routes:
         # ---------- AUTH SERVICE (PUBLIC) ----------
         - id: auth-service
-          uri: lb://authservice
+          uri: lb://auth-service
           predicates:
             - Path=/auth/**
 
