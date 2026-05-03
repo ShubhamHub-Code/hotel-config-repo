@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: api-gateway
+    name: AUTH-SERVICE
 
   datasource:
     driver-class-name: org.postgresql.Driver
